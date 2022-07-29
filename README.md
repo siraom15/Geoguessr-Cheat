@@ -2,6 +2,8 @@
 
 ![Image](https://www.geoguessr.com/_next/static/images/logo-dd3c3286e6d14f72653800dbdf5340a0.svg)
 
+## [GeoGuessr Website](https://www.geoguessr.com)
+
 # Installation
 
 1. Clone the repo
@@ -12,11 +14,11 @@
     ```sh
     npm install
     ```
-3. Setup Environment
+4. Setup Environment on .env
      ```js
     GOOGLE_MAP_API_KEY= //YOURKEY
    ```
-4. Run on NodeJs
+5. Run on NodeJs
     ```
     node index.js
     ```
@@ -60,3 +62,10 @@
     ```
     Result Url = https://www.google.com/maps/place/-1.283769731663547,36.82122965238813
     ```
+
+# How to get GOOGLE_MAP_API_KEY
+
+Get your GOOGLE_MAP_API_KEY by following this [Google documentation](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+---
+Enjoy 😀
