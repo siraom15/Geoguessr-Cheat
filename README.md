@@ -26,6 +26,10 @@
 
 1. Run program
     ```sh
+    npm start
+    ```
+    or
+    ```sh
     node index.js
     ```
 2. Enter PanoId
@@ -40,29 +44,34 @@
 # How to get panoId ?
 
 1. Open Developer console on GeoGuessr Tap
+    ![image1](https://github.com/siraom15/Geoguessr-Cheat/blob/main/images/1.png?raw=true)
 2. Open Network tap on Developer console
-3. Play Game
-4. Find package on Network tap which start with 
+    ![image2](https://github.com/siraom15/Geoguessr-Cheat/blob/main/images/2.png?raw=true)
+3. Play some game (can use in everymode)
+4. Find package on Network tap which start with
     ```
     cbk?cb_client=
     ```
+    ![image2](https://github.com/siraom15/Geoguessr-Cheat/blob/main/images/3.png?raw=true)
 5. Click on the package that match in 4. and click on right tap named payload
     ```
     payload
     ```
+    ![image2](https://github.com/siraom15/Geoguessr-Cheat/blob/main/images/4.png?raw=true)
 6. Get panoid from payload
     ```
-    panoid: CrMe_B4GgCEsJFTL3mwl8g
+    panoid: xxxxxxxxxxx
     ```
-7. Enter PanoId to this program
+    ![image2](https://github.com/siraom15/Geoguessr-Cheat/blob/main/images/4.png?raw=true)
+7. Enter PanoId from (6.) to this program
     ```
-    Enter Pano Id: CrMe_B4GgCEsJFTL3mwl8g
+    Enter Pano Id: xxxxxxxxxxx
     ```
-8. Ez
+8. Get Result
     ```
-    Result Url = https://www.google.com/maps/place/-1.283769731663547,36.82122965238813
+    Result Url = https://www.google.com/maps/place/xxxxxxxxxxx
     ```
-
+9. Copy/Following the result url
 # How to get GOOGLE_MAP_API_KEY
 
 Get your GOOGLE_MAP_API_KEY by following this [Google documentation](https://developers.google.com/maps/documentation/javascript/get-api-key)
